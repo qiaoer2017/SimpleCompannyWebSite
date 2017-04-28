@@ -51,6 +51,29 @@
         </div>
         <div class="nav_right"></div>
     </div>
+
+    <!-- 焦点图盒子 -->
+    <div id="boxID">
+        <!-- 载入中的Loading图片(可选) -->
+        <div class="loading"><img src="img/loading.gif" alt="请稍候..."/></div>
+        <!-- 内容列表 -->
+        <div class="pic">
+            <ul>
+                <li><a href="#"><img src="img/ad2.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/ad3.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/ad4.jpg" alt=""/></a></li>
+                <!-- 你可以根据需要添加更多的列 -->
+            </ul>
+        </div>
+    </div>
 </div><!--wrap结束-->
+
+
+<script src="js/myfocus-2.0.4.min.js"></script>
+<script>
+    window.onload = function () {
+        myFocus.set({id: 'boxID'});
+    };
+</script>
 </body>
 </html>
