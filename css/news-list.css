@@ -1,0 +1,17 @@
+.page {
+    text-align: center;
+    margin: 20px;
+}
+
+.page a{
+    color: #333;
+    display: inline-block;
+    border:1px solid #e8e8e8;
+    padding: 5px 7px;
+    margin:0 5px;
+}
+.page a:hover{
+    color: #ffffff;
+    background: #cc0000;
+}
+
